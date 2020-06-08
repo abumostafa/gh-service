@@ -1,0 +1,36 @@
+{
+  "name": "github-repo",
+  "version": "1.0.0",
+  "description": "Search Github repos",
+  "main": "src/start.js",
+  "scripts": {
+    "start-dev": "npx nodemon src/start.js",
+    "start": "node src/start.js",
+    "test": "jest --config ./jest.config.json"
+  },
+  "keywords": [
+    "github",
+    "search"
+  ],
+  "author": "Ahmed Abumostafa",
+  "license": "ISC",
+  "dependencies": {
+    "abort-controller": "^3.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jest": "^26.0.1",
+    "lodash": "^4.17.15",
+    "node-fetch": "^2.6.0",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.1.0",
+    "eslint-plugin-node": "^11.1.0",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5"
+  },
+  "type": "commonjs",
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
